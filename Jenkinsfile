@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Building..."'
-                sh 'dotnet test-project.csproj'
+                sh 'dotnet build test-project.csproj'
             }
         }
         stage('Test') {
