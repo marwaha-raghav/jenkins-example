@@ -7,10 +7,9 @@ namespace test_project
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            //test comment for git
-            Console.WriteLine("This is a friendly C# Program");
-            Console.WriteLine("Continue");
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("This is a C# Program");
+            Console.WriteLine("Enjoy!");
             Starter.Program ob = new Starter.Program();
             game gObject = new game();
             ob.func();
