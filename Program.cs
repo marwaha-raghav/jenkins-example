@@ -7,7 +7,7 @@ namespace test_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World to all of you!");
             Console.WriteLine("This is a C# Program");
             Console.WriteLine("Enjoy!");
             Starter.Program ob = new Starter.Program();
