@@ -7,15 +7,12 @@ namespace test_project
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
            // Console.WriteLine("Hello World to all of you!");
             Console.WriteLine("This is a C# Program");
             Console.WriteLine("Enjoy!");
-=======
             //Console.WriteLine("Hello World!");
             Console.WriteLine("This is a friendly C# Program");
             Console.WriteLine("Continue");
->>>>>>> emulate remote dev change
             Starter.Program ob = new Starter.Program();
             game gObject = new game();
             ob.func();
