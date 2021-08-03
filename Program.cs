@@ -7,9 +7,6 @@ namespace test_project
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello World to all of you!");
-            Console.WriteLine("This is a C# Program");
-            Console.WriteLine("Enjoy!");
             // test comment fot git hook
             //Console.WriteLine("Hello World!");
             Console.WriteLine("This is a friendly C# Program");
