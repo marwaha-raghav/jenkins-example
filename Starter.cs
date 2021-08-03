@@ -8,6 +8,7 @@ namespace Starter
         {
         Console.WriteLine("Hello World, this is namespace starter");
         Console.WriteLine("What is your name?");
+        Console.WriteLine("Test for rebase");
         var name = Console.ReadLine();
         var currentDate = DateTime.Now;
         Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
