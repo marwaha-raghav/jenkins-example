@@ -12,6 +12,7 @@ namespace test_project
             Console.WriteLine("Enjoy!");
             // test comment fot git hook
             //TEST COMMENT 2 FOR GIT
+            //Test Comment 3got git revert
             //Console.WriteLine("Hello World!");
             Console.WriteLine("This is a friendly C# Program");
             Console.WriteLine("Continue");
