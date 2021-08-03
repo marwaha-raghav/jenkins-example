@@ -11,6 +11,7 @@ namespace test_project
             Console.WriteLine("This is a C# Program");
             Console.WriteLine("Enjoy!");
             // test comment fot git hook
+            //TEST COMMENT 2 FOR GIT
             //Console.WriteLine("Hello World!");
             Console.WriteLine("This is a friendly C# Program");
             Console.WriteLine("Continue");
