@@ -1,6 +1,6 @@
 #!/bin/bash
-
-REPO_PATH=~/git/*
+WD=$(pwd)
+REPO_PATH=$WD/test1
 #create file with list of branches
 for repo in $REPO_PATH
 do
@@ -8,10 +8,10 @@ do
     echo "working on ${REPO_PATH}"
     git -C $repo pull
     # copy branches in a file
-    touch ~/git/fil.txt
-    git -C $repo branch -a > ~/git/fil.txt
+    touch "${WD}/fil.txt"
+    git -C $repo branch -a > "${WD}/fil.txt"
     # extract branch names.
-    SIZE=$(cat ~/git/fil.txt | grep "remotes" | grep -v "HEAD"|grep -v "main")
+    SIZE=$(cat ${WD}/fil.txt | grep "remotes" | grep -v "HEAD"|grep -v "main")
     for branch in $SIZE
     do
         COMMAND=$(echo "${branch}" | sed 's/.*origin\///')
@@ -19,5 +19,3 @@ do
         echo "branch checked out"
     done
 done
-
-
